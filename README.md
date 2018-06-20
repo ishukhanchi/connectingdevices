@@ -1,2 +1,2 @@
 # connectdevices
-Coonecting various devices over a network using APIs.
+Conecting various devices over a network using APIs.
