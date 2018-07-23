@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.shortcuts import render_to_response
 from django.core.context_precessors import csrf
 from django.contrib.auth import authenticate, login
 
@@ -19,8 +20,8 @@ def my_view(request):
         return HttpResponse("invalid user")
 
 def loggedin(request):
-	return render_to_response(loggedin.html.
-		                      {'full_name': request.user.usernmae})
+	return render_to_response(loggedin.html)
+		#{'full_name': request.user.username})
 
 def invalid_login(request):
 	return render_to_response('invalid_login.html')
