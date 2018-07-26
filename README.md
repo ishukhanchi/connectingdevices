@@ -20,7 +20,10 @@ Clone the repository. git clone [https://github.com/ishukhanchi/connectingdevice
    * python manage.py runserver<br>
      and open localhost:8000 on your browser to view the app.<br>
    * To stop serving the website, press ctrl+c.<br>
-   * Code can be modified in any text-editor. Eg:Sublime-Text
+   * Code can be modified in any text-editor. Eg:Sublime-Text.<br>
+   * Changes will be reflected in the app by using commands:
+      python manage.py migrate
+      python manage.py makemigrations
    
    
     
