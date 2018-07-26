@@ -1,6 +1,10 @@
 # connectdevices
 Conecting various devices over a network using APIs.
 
+## Steps to install django:
+* [Windows](https://docs.djangoproject.com/en/2.0/howto/windows/)
+* [Linux](https://docs.djangoproject.com/en/2.0/topics/install/)
+
 ## Steps to setup:
 
 Clone the repository. git clone [https://github.com/ishukhanchi/connectingdevices.git](https://github.com/ishukhanchi/connectingdevices.git)<br>
